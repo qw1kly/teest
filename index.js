@@ -113,11 +113,6 @@ function getRandomIcon() {
 function randomDuration(wh_coll) {
     return (wh_coll-1) * 0.9
 }
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+
 
 
