@@ -1,8 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
 
 const ICONS = [
     "deskcalendar-138014.medium", "hexpot-48161.large", "joyfulbundle-22281.medium", 
