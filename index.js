@@ -1,5 +1,3 @@
-
-
 const ICONS = [
     "deskcalendar-138014.medium", "hexpot-48161.large", "joyfulbundle-22281.medium", 
 ];
