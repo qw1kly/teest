@@ -64,10 +64,7 @@ const transaction = {
 }
 
 const result = await tonConnectUI.sendTransaction(transaction)
-const cell = Cell.fromBase64(result.boc);
-const buffer = cell.hash();
-const hashHex = buffer.toString("hex");
-console.log("Transaction Hash:", hashHex);
+console.log("Transaction Hash:", result.boc);
     }
         let tg = Telegram.WebApp.initData;
         console.log(tg)
