@@ -59,7 +59,8 @@ const transaction = {
         {
             address: "UQDdb_AsWWNHRVKbmajVvu6p9sOKkYjmp-lqQk44IMisCnMY", // destination address
             amount: "10000000", //Toncoin in nanotons
-            payload: "47583411230913019241983"
+            payload: "47583411230913019241983".toBoc().toString("base64")
+
         }
     ]
 }
