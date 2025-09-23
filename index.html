@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+   
     <title>Sloty</title>
     <link rel="stylesheet" href="App.css">
     <script src="index.js" defer></script>
@@ -196,8 +198,8 @@ function setResult(dtt) {
         let icons = col.querySelectorAll('.icon img');
         // replace the first and last three items of each column with the generated items
         for (let x = 0; x < 3; x++) {
-            icons[x].setAttribute('src',  results[x] + '.jpg');
-            icons[(icons.length - 3) + x].setAttribute('src',  results[x] + '.jpg');
+            icons[x].setAttribute('src',  results[x]);
+            icons[(icons.length - 3) + x].setAttribute('src',  results[x]);
         }
     }
 }
